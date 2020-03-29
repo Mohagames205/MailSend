@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+    margin: 0;
+    background-color: #ecf0f1;
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+.text {
+    text-align: center;
+    padding: 2.5%;
+    font-size: 20px;
+}
+
+.banner {
+    padding: 4.5%;
+    text-align: center;
+    background-color: rgb(240, 202, 0);
+    -webkit-box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.15);
+    -moz-box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.15);
+    box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.15);
+    text-shadow: 2px 2px rgba(0,0,0,0.29);
+    color: white;
+}
+
+.comments{
+    text-align: center;
+}
+
+.single_comment{
+    transition: 0.5s;
+    background-color: white;
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    border-radius: 8px;
+    -webkit-box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.15);
+    -moz-box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.15);
+    box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.15);
+}
+
+.single_comment:hover {
+    transition: 0.5s;
+    -webkit-box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.30);
+    -moz-box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.30);
+    box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.30);
+}
+
+.comment{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+form input{
+    padding: 9px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: rgb(216, 216, 216);
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+form button{
+    color: white;
+    border: none;
+    border-style: solid;
+    border-color: rgb(214, 180, 0);
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgb(209, 175, 4);
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+
+    -webkit-box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.15);
+    -moz-box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.15);
+    box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.15);
+
+}
